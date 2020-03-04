@@ -61,7 +61,7 @@ class Game:
     def __init__(self):
         
         self.root = Tk()
-        self.root.title('My snake')
+        self.root.title('Tehnarenok snake')
     
     def initGame(self):
         global c, s
