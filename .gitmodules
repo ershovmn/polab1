@@ -1,7 +1,7 @@
 [submodule "snake"]
     path = snake
-    url = git@github.com:ershovmn/polab1.git/snake
+    url = git@github.com:ershovmn/snake.git
 
 [submodule "tests"]
     path = tests
-    url = git@github.com:ershovmn/polab1.git/tests
+    url = git@github.com:ershovmn/autosortarray.git
