@@ -24,7 +24,8 @@ class Test_SortArray(unittest.TestCase):
         array.append(2)
         self.assertEqual(array._data, [1, 2])
         array.append(0)
-        self.assertEqual(array._data, [0, 1, 2])
+        array.append(3)
+        self.assertEqual(array._data, [0, 1, 2, 3])
     
     def test_to_string(self):
         array = SortArray([3, 2, 1, -1, 4, 5])
