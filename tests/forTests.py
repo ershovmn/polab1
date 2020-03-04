@@ -94,6 +94,20 @@ class SortArray:
             return first
         else:
             return last
+    
+    def indexOf(self, element):
+        """Find index element
+        
+        Arguments:
+            element {any} -- element
+        
+        Returns:
+            number  -- index element
+        """        
+        for i in range(len(self._data)):
+            if(self._data[i] == element):
+                return i
+        return -1
         
 
 if __name__ == '__main__':
