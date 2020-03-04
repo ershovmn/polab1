@@ -27,8 +27,8 @@ class Test_SortArray(unittest.TestCase):
         self.assertEqual(array._data, [0, 1, 2])
     
     def test_to_string(self):
-        array = SortArray([3, 2, 1, -1, 4])
-        self.assertEqual(str(array), '[-1, 1, 2, 3, 4]')
+        array = SortArray([3, 2, 1, -1, 4, 5])
+        self.assertEqual(str(array), '[-1, 1, 2, 3, 4, 5]')
         
     def test_set_reverse(self):
         array = SortArray([3, 2, 1], True)
