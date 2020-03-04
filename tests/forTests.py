@@ -60,6 +60,24 @@ class SortArray:
             element {any} -- last element
         """        
         return self._data.pop()
+    
+    def max(self):
+        """Find max in array
+        
+        Returns:
+            element {any} -- max element
+        """        
+        if(len(self._data) == 0):
+            return None
+        
+        first = self._data[0]
+        last = self._data[-1]
+
+        if(first > last):
+            return first
+        else:
+            return last
+        
 
 if __name__ == '__main__':
     a = SortArray()
