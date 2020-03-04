@@ -52,6 +52,14 @@ class SortArray:
         """
         self._data.append(element)        
         self.sort()
+    
+    def pop(self):
+        """Return last element
+        
+        Returns:
+            element {any} -- last element
+        """        
+        return self._data.pop()
 
 if __name__ == '__main__':
     a = SortArray()
