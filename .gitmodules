@@ -4,7 +4,4 @@
 
 [submodule "tests"]
     path = tests/
-    url = https://github.com/ershovmn/polab1/tests
-[submodule "SnakeGame"]
-	path = SnakeGame
-	url = git@github.com:ershovmn/polab1.git
+    url = git@github.com:ershovmn/polab1.git
