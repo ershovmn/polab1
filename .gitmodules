@@ -1,7 +1,7 @@
 [submodule "snake"]
-    path = snake/
-    url = https://github.com/ershovmn/polab1/snake
+    path = snake
+    url = git@github.com:ershovmn/polab1.git/snake
 
 [submodule "tests"]
     path = tests
-    url = git@github.com:ershovmn/polab1.git
+    url = git@github.com:ershovmn/polab1.git/tests
