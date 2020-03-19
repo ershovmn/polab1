@@ -1,0 +1,3 @@
+[submodule "travelhack"]
+	path = travelhack
+	url = https://github.com/ershovmn/travelhack
