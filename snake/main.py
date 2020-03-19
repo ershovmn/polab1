@@ -44,7 +44,7 @@ class Snake(object):
         
         x = last_seg[2] - SEG_SIZE
         y = last_seg[3] - SEG_SIZE
-         
+        
         self.segments.insert(0, Segment(x, y)) 
 
 def create_block():
@@ -105,3 +105,6 @@ class Game:
 if __name__ == '__main__':
     game = Game()    
     game.initGame()
+
+
+    
